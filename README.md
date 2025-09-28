@@ -2,8 +2,6 @@
 
 This project implements an **AI Agent** using the **Gemini** model via `langchain-google-genai`. It was developed to function as a **service desk triage agent** for **Lanx Capital**, processing questions about internal policies and classifying requests according to predefined rules. Additionally, the project supports **RAG (Retrieval-Augmented Generation)**, enabling answers based on uploaded and processed PDF documents.
 
----
-
 ## Features
 - **Message Classification (Screening)**  
   - Categorizes requests into:  
@@ -20,7 +18,21 @@ This project implements an **AI Agent** using the **Gemini** model via `langchai
   - Provides contextual responses based on document content.  
   - Returns `"I don't know"` if there is insufficient context.  
 
----
+## How to use
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/JessicaArauj/AI_Agent_with_Gemini
+```
+
+2. Navigate to the file of interest:
+
+```bash
+cd AI_Agent_with_Gemini.ipynb
+```
+
+3. Open the jupyter notebook and run the code step by step.
 
 ## Installation
 The project is designed to run on **Google Colab**. Install dependencies with:
